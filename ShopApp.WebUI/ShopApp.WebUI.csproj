@@ -1,0 +1,216 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.min.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.rtl.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.min.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.rtl.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.min.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.rtl.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap.min.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap.rtl.css" />
+    <Content Include="node_modules\bootstrap\dist - Copy\css\bootstrap.rtl.min.css" />
+    <Content Include="node_modules\bootstrap\package - Copy.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopApp.Business\ShopApp.Business.csproj" />
+    <ProjectReference Include="..\ShopApp.DataAccess\ShopApp.DataAccess.csproj" />
+    <ProjectReference Include="..\ShopApp.Entities\ShopApp.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.rtl.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap.rtl.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\css\bootstrap.rtl.min.css.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.bundle.js" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.bundle.js.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.bundle.min.js" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.bundle.min.js.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.esm.js" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.esm.js.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.esm.min.js" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.esm.min.js.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.js" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.js.map" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.min.js" />
+    <None Include="node_modules\bootstrap\dist - Copy\js\bootstrap.min.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\alert.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\alert.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\base-component.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\base-component.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\button.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\button.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\carousel.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\carousel.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\collapse.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\collapse.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\data.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\data.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\event-handler.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\event-handler.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\manipulator.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\manipulator.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\selector-engine.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dom\selector-engine.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dropdown.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\dropdown.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\modal.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\modal.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\offcanvas.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\offcanvas.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\popover.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\popover.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\scrollspy.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\scrollspy.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\tab.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\tab.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\toast.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\toast.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\tooltip.js" />
+    <None Include="node_modules\bootstrap\js - Copy\dist\tooltip.js.map" />
+    <None Include="node_modules\bootstrap\js - Copy\src\alert.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\base-component.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\button.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\carousel.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\collapse.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\dom\data.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\dom\event-handler.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\dom\manipulator.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\dom\selector-engine.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\dropdown.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\modal.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\offcanvas.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\popover.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\scrollspy.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\tab.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\toast.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\tooltip.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\util\backdrop.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\util\component-functions.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\util\focustrap.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\util\index.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\util\sanitizer.js" />
+    <None Include="node_modules\bootstrap\js - Copy\src\util\scrollbar.js" />
+    <None Include="node_modules\bootstrap\LICENSE - Copy" />
+    <None Include="node_modules\bootstrap\README - Copy.md" />
+    <None Include="node_modules\bootstrap\scss - Copy\bootstrap-grid.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\bootstrap-reboot.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\bootstrap-utilities.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\bootstrap.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_floating-labels.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_form-check.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_form-control.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_form-range.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_form-select.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_form-text.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_input-group.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_labels.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\forms\_validation.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_clearfix.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_colored-links.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_position.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_ratio.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_stacks.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_stretched-link.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_text-truncation.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_visually-hidden.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\helpers\_vr.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_alert.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_backdrop.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_border-radius.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_box-shadow.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_breakpoints.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_buttons.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_caret.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_clearfix.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_color-scheme.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_container.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_deprecate.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_forms.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_gradients.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_grid.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_image.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_list-group.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_lists.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_pagination.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_reset-text.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_resize.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_table-variants.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_text-truncate.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_transition.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_utilities.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\mixins\_visually-hidden.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\utilities\_api.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\vendor\_rfs.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_accordion.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_alert.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_badge.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_breadcrumb.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_button-group.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_buttons.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_card.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_carousel.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_close.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_containers.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_dropdown.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_forms.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_functions.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_grid.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_helpers.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_images.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_list-group.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_mixins.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_modal.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_nav.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_navbar.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_offcanvas.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_pagination.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_placeholders.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_popover.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_progress.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_reboot.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_root.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_spinners.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_tables.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_toasts.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_tooltip.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_transitions.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_type.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_utilities.scss" />
+    <None Include="node_modules\bootstrap\scss - Copy\_variables.scss" />
+  </ItemGroup>
+
+</Project>
